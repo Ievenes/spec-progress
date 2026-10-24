@@ -1,0 +1,14 @@
+{
+  "name": "spec-progress",
+  "owner": {
+    "name": "Ievenes"
+  },
+  "plugins": [
+    {
+      "name": "spec-progress",
+      "source": "./",
+      "description": "A panel above the prompt that follows Spec Kit specs: flow steps, phases, current task, checkpoints, live progress and buttons that fill the prompt. Available in English, Portuguese, Spanish, French, German and Italian."
+    }
+  ],
+  "description": "spec-progress: a Claude Code panel that follows Spec Kit specs, phases and tasks."
+}

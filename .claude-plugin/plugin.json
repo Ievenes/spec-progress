@@ -1,0 +1,46 @@
+{
+  "name": "spec-progress",
+  "version": "0.4.0",
+  "description": "A panel above the prompt that follows Spec Kit specs: flow steps, phases, current task, checkpoints, live progress and buttons that fill the prompt. Available in English, Portuguese, Spanish, French, German and Italian.",
+  "author": {
+    "name": "Ievenes"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Ievenes/spec-progress",
+  "repository": "https://github.com/Ievenes/spec-progress",
+  "keywords": [
+    "spec-kit",
+    "speckit",
+    "tasks",
+    "progress",
+    "panel"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Panel language",
+      "description": "auto follows Claude Code's language setting, then the system locale; en, pt, es, fr, de or it",
+      "default": "auto",
+      "options": [
+        "auto",
+        "en",
+        "pt",
+        "es",
+        "fr",
+        "de",
+        "it"
+      ]
+    },
+    "modelContext": {
+      "type": "string",
+      "title": "Tell the model the active spec",
+      "description": "on adds a short note to the system prompt naming the active spec and phase, so the model follows tasks.md in order and checks tasks off; off sends nothing",
+      "default": "off",
+      "options": [
+        "off",
+        "on"
+      ]
+    }
+  }
+}
